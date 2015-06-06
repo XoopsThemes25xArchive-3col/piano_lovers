@@ -1,0 +1,355 @@
+body {
+	color: #dbdbdb;
+	margin: 0;
+	padding: 0;
+	font-family: Tahoma;
+	font-size: 9pt;
+	background-color: #272727; BACKGROUND: url(images/stripe.png) repeat;
+}
+
+table {
+	width: 100%;
+}
+table td {
+	padding: 0;
+	border-width: 0;
+	vertical-align: top;
+}
+
+#Main {
+	width: 880px;
+	border-right-width: 1px;
+	border-left-width: 1px;
+	border-right-style: dotted;
+	border-left-style: dotted;
+	border-right-color: #dbdbdb;
+	border-left-color: #dbdbdb;
+	background-color: #272727;
+}
+#MainWidth {width: 880px;}
+
+#header {
+	background-image: url(images/header.jpg);
+	height: 240px;
+	background-repeat: no-repeat;
+	background-position: left top;
+	border-bottom-width: 0px;
+	border-bottom-style: dotted;
+	border-bottom-color: #272727;
+
+}
+
+a {color: #dbdbdb; font-weight: normal; background-color: transparent;}
+a:hover {
+	color: #f7df3c;
+	text-decoration: italic;
+}
+
+h1 {font-size: 130%;}
+h2 {font-size: 110%;}
+h3 {font-size: 105%;}
+h4 {font-size: 100%;}
+h5 {font-size: 95%;}
+h6 {font-size: 85%;}
+
+
+h1, h2, h3, h4, h5, h6 {
+	padding: 0px;
+	margin: 0px;
+}
+
+
+ul { margin: 2px; padding: 2px; list-style: decimal inside; text-align: left;}
+li { margin-left: 2px; list-style: square inside; color: #272727}
+
+
+input[type=button], input[type=submit], input[type=reset] { 
+    PADDING-RIGHT: 0.5em;
+    PADDING-LEFT: 0.5em;
+    PADDING-BOTTOM: 1px;
+    PADDING-TOP: 1px;
+    BACKGROUND: url(images/yellow.png) repeat-x;
+    COLOR: #fff;
+    CURSOR: pointer;
+    BORDER-LEFT: 0px solid #dbdbdb;
+	BORDER-RIGHT: 0px solid #dbdbdb;
+	BORDER-BOTTOM: none;
+	BORDER-TOP: none;
+}
+input {
+	font-size: 90%;
+	color: #dbdbdb;
+	border: 1px solid #dbdbdb;
+	margin-bottom: 4px;
+	
+}
+
+.item {
+	margin-bottom: 25px;
+}
+.itemHead {
+	padding: 3px;
+	color: #000000;
+}
+
+.itemInfo {
+	text-align: right;
+	padding: 3px;
+	color: #000000;
+}
+.itemTitle a {
+	font-weight: normal;
+	color: #272727;
+}
+.itemPoster, .itemPostDate, .itemStats {font-size: 90%; color: #000000;}
+.itemBody {	padding: 5px;}
+.itemText {
+	margin-top: 1px;
+	margin-bottom: 1px;
+	line-height: 1.5em;
+}
+.itemText a , .itemInfo a, .itemFoot a{
+	color: #999999;
+	font-weight: normal;
+}
+.itemText a:hover .itemInfo a:hover, .itemFoot a:hover {
+	color: #f7df3c;
+	text-decoration: none;
+}
+.itemText:first-letter {}
+.itemFoot {
+	text-align: right;
+	padding: 3px;
+	color: #000000;
+	margin-right: 20px;
+	margin-left: 20px;
+}
+.itemAdminLink {font-size: 90%;}
+.itemPermaLink {font-size: 90%;}
+
+th {
+	color: #dbdbdb;
+	padding : 2px;
+	vertical-align : middle;
+	font-family: Tahoma;
+}
+
+
+#leftcolumn {
+	width: 200px;
+	border-right: 1px dotted #dbdbdb;
+	background-color: #272727;
+	color: #dbdbdb;
+	padding-top: 0px;
+}
+#leftcolumn a {
+	color: #dbdbdb;
+}
+#leftcolumn a:hover{
+	text-decoration: italic;
+	color: #f7df3c;
+}
+
+#rightcolumn {
+	width: 200px;
+	border-left: 1px dotted #dbdbdb;
+	background-color: #272727;
+}
+
+#leftcolumn th, #rightcolumn th {color: #272727; vertical-align: middle;}
+#leftcolumn .blockTitle {
+	padding: 12px 47px;
+	color: #272727;
+	font-weight: normal;
+	background-color: #272727;background-image: url(images/block_bc.gif);
+}
+ #rightcolumn .blockTitle {
+	padding: 12px 53px;
+	color: #272727;
+	font-weight: normal;
+	background-color: #272727;
+	background-image: url(images/block_bc.gif)
+}
+#leftcolumn .blockContent, #rightcolumn .blockContent {
+	padding: 5px 6px;
+	margin-bottom: 10px;
+}
+
+.centercol {}
+.centercol .blockContent a {
+}
+	
+.centercol .blockContent a:hover {
+}
+
+.centercol .blockTitle {
+	color: #000000; BACKGROUND: url(images/yellow.png) repeat-x;
+	border-bottom-width: 1px;
+	border-bottom-style: dotted;
+	border-bottom-color: #dbdbdb;
+	font-weight: normal;line-height: 1.8em;
+	padding: 0px 12px;
+}
+
+.centercol .blockContent {
+	line-height: 1.5em;
+	margin-bottom: 5px;
+	border-bottom-width: 1px;
+	border-bottom-style: dotted;
+	border-bottom-color: #dbdbdb;
+	padding-bottom: 12px;
+}
+
+.centercol li {
+}
+
+#centercolumn {
+	padding: 6px;
+}
+
+#centercolumn th {
+	color: #272727;
+	vertical-align: middle;
+	border-bottom-width: 2px;
+	border-bottom-style: dotted;
+	border-bottom-color: #dbdbdb;
+	background-color: #dbdbdb;
+	background-image: url(images/yellow.png);
+	background-repeat: repeat-x;
+	background-position: left top;
+}
+#centerCcolumn, #bottomCcolumn {padding: 0px 3px 1px 3px;}
+#centerLcolumn, #bottomLcolumn {width: 50%; padding: 0px 8px 0px 0px;}
+#centerRcolumn,  #bottomRcolumn {
+	width: 50%;
+	padding: 0px 0px 0px 8px;
+	border-left-width: 1px;
+	border-left-style: dotted;
+	border-left-color: #dbdbdb;
+}
+
+div#content {text-align: left; padding: 4px 0px;}
+
+#mainmenu a {
+	display: block;
+	margin: 0;
+	padding: 2px;
+	font-weight: normal;
+	text-decoration: none;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #dbdbdb;
+	border-left-width: 4px;
+	border-top-style: solid;
+	border-left-style: solid;
+	border-top-color: #272727;
+	border-left-color: #dfb50e;
+	border-top-width: 1px;
+	background-color: #272727;
+}
+#mainmenu a:hover {
+	color: #dfb50e;
+	text-decoration: none;
+	background-color: #272727;
+	border-left-width: 4px;
+	border-left-style: solid;
+	border-left-color: #dbdbdb
+}
+#mainmenu a.menuTop, #mainmenu a.menuMain {padding-left: 8px; }
+#mainmenu a.menuSub {padding-left: 25px; }
+
+#usermenu a {
+	display: block;
+	margin: 0;
+	padding: 2px 2px 2px 8px;
+	font-weight: normal;
+	text-decoration: none;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #dbdbdb;
+	border-left-width: 4px;
+	border-top-style: solid;
+	border-left-style: solid;
+	border-top-color: #272727;
+	border-left-color: #dfb50e;
+	border-top-width: 1px;
+	background-color: #272727;
+}
+#usermenu a:hover {	color: #dfb50e;
+	text-decoration: none;
+	background-color: #272727;
+	border-left-width: 4px;
+	border-left-style: solid;
+	border-left-color: #dbdbdb;
+}
+#usermenu a.highlight {
+	background-color: #46801C;
+	color: #272727;
+}
+.outer {}
+.head {
+	background-color: #272727;
+	padding: 2px;
+	font-weight: bold;
+	background-position: left top;
+	border: 1px solid #dbdbdb;
+}
+.even, tr.even td {background-color: #272727; padding: 1px;}
+.odd, tr.odd td {background-color: #dbdbdb; padding: 1px;}
+.foot {
+	padding: 2px;
+	font-weight: bold;
+	text-align: center;
+}
+
+
+div.errorMsg { background-color: #272727; text-align: center; border-top: 1px solid #DDDDFF; border-left: 1px solid #DDDDFF; border-right: 1px solid #AAAAAA; border-bottom: 1px solid #AAAAAA; font-weight: bold; padding: 10px;}
+div.confirmMsg { background-color: #DDFFDF; color: #136C99; text-align: center; border-top: 1px solid #DDDDFF; border-left: 1px solid #DDDDFF; border-right: 1px solid #AAAAAA; border-bottom: 1px solid #AAAAAA; font-weight: bold; padding: 10px;}
+div.resultMsg { background-color : #CCCCCC; color: #333333; text-align: center; border-top: 1px solid silver; border-left: 1px solid silver; font-weight: bold; border-right: 1px solid #dbdbdb; border-bottom: 1px solid #dbdbdb; padding: 10px;}
+
+div.xoopsCode { background: #272727; border: 1px inset #000080; font-family: "Tahoma"; padding: 0px 6px 6px 6px;}
+div.xoopsQuote { background: #272727; border: 1px inset #000080; font-family: "Tahoma",; padding: 0px 6px 6px 6px;}
+
+
+.comTitle {font-weight: normal; margin-bottom: 2px;}
+.comText {padding: 2px;}
+.comUserStat {font-size: 10px; color: #272727; font-weight:bold; border: 1px solid silver; background-color: #272727; margin: 2px; padding: 2px;}
+.comUserStatCaption {font-weight: normal;}
+.comUserStatus {margin-left: 2px; margin-top: 10px; color: #272727; font-weight:bold; font-size: 10px;}
+.comUserRank {margin: 2px;}
+.comUserRankText {font-size: 10px;font-weight:bold;}
+.comUserRankImg {border: 0;}
+.comUserName {}
+.comUserImg {margin: 2px;}
+.comDate {font-weight: normal; font-style: italic; font-size: smaller}
+.comDateCaption {font-weight: bold; font-style: normal;}
+
+.footer {
+	padding: 10px 3px;
+	text-align: center;
+	font-weight: normal;
+	color: #272727;
+	text-decoration: none;
+	font-size: 90%;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #272727;
+	background-color: #dbdbdb;BACKGROUND: url(images/yellow.png) repeat-x;
+	
+}
+.footer a {
+	text-decoration: underline;
+	font-weight: normal;
+	color: #272727;
+}
+.footer a:hover {
+	text-decoration: italic;
+}
+
+select {
+	font-size: 90%;
+	margin-bottom: 4px;
+}
+
+textarea {
+}
